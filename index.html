@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <img src="background-img.jpg" alt="" class="background__image" />
+      <header class="header">
+        <div class="header__content">
+          <span>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+              alt=""
+              class="header__logo"
+            />
+          </span>
+          <div class="header__buttons">
+            <div class="header__button__selector">
+              <select>
+                <option>English</option>
+                <option>हिन्दी</option>
+              </select>
+            </div>
+            <button class="sign-in">Sign in</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="fornt__text">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <p class="fornt__text__menbership">
+          Starts at ₹149. Cancel at any time.
+        </p>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="email__input__container">
+          <input type="text" placeholder="Email address" class="email__input" />
+          <button class="get__started">Get Started</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="box"></div>
+
+    <main class="main">
+      <div class="main__container">
+        <div class="main__container__sub">
+          <h1 class="main__container__sub__taranding">Tranding Now</h1>
+
+          <div class="main__container__sub_wrapper">
+            <div class="main__container__sub__videos">
+              <button class="scroll-btn left" onclick="scrollLeft()">
+                &#10094;
+              </button>
+              <div class="main__container__sub__videos__video">
+                <img src="img1.jpg" alt="" />
+              </div>
+              <div class="main__container__sub__videos__video">
+                <img src="img2.jpg" alt="" />
+              </div>
+              <div class="main__container__sub__videos__video">
+                <img src="img3.jpg" alt="" />
+              </div>
+              <div class="main__container__sub__videos__video">
+                <img src="img4.jpg" alt="" />
+              </div>
+              <div class="main__container__sub__videos__video">
+                <img src="img6.jpg" alt="" />
+              </div>
+              <div class="main__container__sub__videos__video">
+                <img src="img1.jpg" alt="" />
+              </div>
+              <div class="main__container__sub__videos__video">
+                <img src="img3.jpg" alt="" />
+              </div>
+              <button class="scroll-btn right" onclick="scrollRight()">
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <h1 class="main__container__sub__taranding">More reasons to join</h1>
+          <div class="main__container__sub__join">
+            <div class="main__container__sub__join_card">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </p>
+            </div>
+            <div class="main__container__sub__join_card">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </p>
+            </div>
+            <div class="main__container__sub__join_card">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </p>
+            </div>
+            <div class="main__container__sub__join_card">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </p>
+            </div>
+          </div>
+
+          <h1 class="main__container__sub__taranding">
+            Frequently Asked Questions
+          </h1>
+          <div class="faq__container">
+            <div class="faq__container__item">
+              <button class="faq__container__question">What is Netflix?</button>
+              <div class="faq__container__answer">
+                Netflix is a streaming service that offers a wide variety of TV
+                shows, movies, anime, and more.
+              </div>
+            </div>
+            <div class="faq__container__item">
+              <button class="faq__container__question">
+                How much does Netflix cost?
+              </button>
+              <div class="faq__container__answer">
+                Watch Netflix on your smartphone, tablet, Smart TV, or laptop —
+                all for one fixed monthly fee.
+              </div>
+            </div>
+            <div class="faq__container__item">
+              <button class="faq__container__question">
+                Where can I watch?
+              </button>
+              <div class="faq__container__answer">
+                You can watch anywhere, anytime. Sign in with your Netflix
+                account to watch instantly on the web.
+              </div>
+            </div>
+            <div class="faq__container__item">
+              <button class="faq__container__question">How do I cancel?</button>
+              <div class="faq__container__answer">
+                You can watch anywhere, anytime. Sign in with your Netflix
+                account to watch instantly on the web.
+              </div>
+            </div>
+            <div class="faq__container__item">
+              <button class="faq__container__question">
+                What can I watch on Netflix?
+              </button>
+              <div class="faq__container__answer">
+                You can watch anywhere, anytime. Sign in with your Netflix
+                account to watch instantly on the web.
+              </div>
+            </div>
+            <div class="faq__container__item">
+              <button class="faq__container__question">
+                Is Netflix good for kids?
+              </button>
+              <div class="faq__container__answer">
+                You can watch anywhere, anytime. Sign in with your Netflix
+                account to watch instantly on the web.
+              </div>
+            </div>
+          </div>
+
+          <p style="text-align: center">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+
+          <div class="main__container__sub__email" >
+            <input
+              type="text"
+              placeholder="Email address"
+              class="main__container__sub__email__input"
+              style=""
+            />
+            <button class="main__container__sub__email__btn">Get Started</button>
+          </div>
+
+          <footer class="footer">
+            <div class="footer__container">
+              <p class="footer__contact">
+                Questions? Call <a href="#">000-800-919-1694</a>
+              </p>
+
+              <div class="footer__links">
+                <ul class="footer__list">
+                  <li><a href="#" class="footer__link">FAQ</a></li>
+                  <li><a href="#" class="footer__link">Help Centre</a></li>
+                  <li><a href="#" class="footer__link">Account</a></li>
+                  <li><a href="#" class="footer__link">Media Centre</a></li>
+                </ul>
+                <ul class="footer__list">
+                  <li>
+                    <a href="#" class="footer__link">Investor Relations</a>
+                  </li>
+                  <li><a href="#" class="footer__link">Jobs</a></li>
+                  <li><a href="#" class="footer__link">Ways to Watch</a></li>
+                  <li><a href="#" class="footer__link">Terms of Use</a></li>
+                </ul>
+                <ul class="footer__list">
+                  <li><a href="#" class="footer__link">Privacy</a></li>
+                  <li>
+                    <a href="#" class="footer__link">Cookie Preferences</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Corporate Information</a>
+                  </li>
+                  <li><a href="#" class="footer__link">Contact Us</a></li>
+                </ul>
+                <ul class="footer__list">
+                  <li>
+                    <a href="#" class="footer__link">Investor Relations</a>
+                  </li>
+                  <li><a href="#" class="footer__link">Jobs</a></li>
+                  <li><a href="#" class="footer__link">Ways to Watch</a></li>
+                  <li><a href="#" class="footer__link">Terms of Use</a></li>
+                </ul>
+              </div>
+
+              <div class="footer__language">
+                <select class="footer__select">
+                  <option value="en">English</option>
+                  <option value="hi">हिन्दी</option>
+                </select>
+              </div>
+
+              <p class="footer__note">Netflix India</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
