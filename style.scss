@@ -86,7 +86,7 @@
 
 .fornt__text {
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -429,7 +429,7 @@
     }
 
     &__buttons {
-      flex-direction: column;
+      flex-direction: row;
       gap: 10px;
     }
 
@@ -445,7 +445,7 @@
 
     h1,
     p {
-      // margin-top: 100px;
+       margin-top: auto;
       // width: 80%;
       gap: 5px;
       font-size: 1rem;
@@ -467,7 +467,7 @@
 
   .get__started {
     width: 50%;
-    margin-bottom: 10px;
+    margin-bottom: -40px;
   }
 
   .main__container__sub {
