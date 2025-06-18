@@ -376,39 +376,56 @@
   }
   .header__logo {
     margin-left: 0;
-    width: 120px;
+    width: 90px;
   }
   .header__buttons {
     flex-direction: row;
     gap: 10px;
+    padding: auto;
   }
   .header__button__selector {
     margin-right: 0;
-    padding: 6px 16px;
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  .header select {
+    font-size: 0.7rem;
+  }
+  .sign-in {
+    padding: 5px;
+    font-size: 0.8rem;
   }
   .fornt__text {
-    top: 50%;
+    top: 20%;
     width: auto;
   }
   .fornt__text h1,
   .fornt__text p {
     margin-top: auto;
     gap: 5px;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .fornt__text__menbership {
     font-size: 1.5rem;
   }
   .email__input__container {
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .email__input {
-    min-width: 80%;
+    min-width: 50%;
+    font-size: 0.9rem;
+    padding: 3px;
     margin-bottom: 10px;
   }
   .get__started {
-    width: 50%;
-    margin-bottom: -40px;
+    margin-top: 2px;
+    font-size: 0.7rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 15%;
   }
   .main__container__sub {
     margin: 0 20px;
@@ -457,36 +474,55 @@
     gap: 15px;
   }
   .fornt__text {
-    top: 50%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0 20px;
   }
   .fornt__text h1 {
-    top: 50%;
-    font-size: 1rem;
-    width: 10%;
+    font-size: 1.5rem;
+    width: 100%;
+    align-items: center;
   }
   .fornt__text__menbership {
-    font-size: 0.6rem;
+    font-size: 2rem;
   }
   .fornt__text p {
-    font-size: 0.5rem;
+    font-size: 1rem;
     width: 100%;
+  }
+  .email__input__container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email__input {
+    min-width: 70%;
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .get__started {
+    font-size: 0.6rem;
+    padding: 10px;
+    margin-top: 5px;
+    width: 25%;
+    margin-bottom: auto;
   }
   .main__container__sub {
     margin: 0 40px;
   }
   .main__container__sub__join {
+    padding: 10px 40px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
   .main__container__sub__join_card {
-    width: 45%;
     margin-bottom: 20px;
   }
   .main__container__sub__email__input {
-    max-width: 60%;
+    width: 60%;
   }
   .main__container__sub__email__btn {
     width: auto;
